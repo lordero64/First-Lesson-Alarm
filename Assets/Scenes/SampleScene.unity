@@ -1145,7 +1145,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _alarmLight: {fileID: 1682886824}
+<<<<<<< HEAD
   _intensity: 2
+=======
+>>>>>>> d664ef35d6994fd901c241acf2afadd098183efd
 --- !u!114 &1912417628
 MonoBehaviour:
   m_ObjectHideFlags: 0

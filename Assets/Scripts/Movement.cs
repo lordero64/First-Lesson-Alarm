@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations;
 
+<<<<<<< HEAD
 [RequireComponent(typeof(Animator))]
 
+=======
+>>>>>>> d664ef35d6994fd901c241acf2afadd098183efd
 public class Movement : MonoBehaviour
 {
     [SerializeField] private float _speed;
@@ -12,8 +15,11 @@ public class Movement : MonoBehaviour
     private Animator _animator;
     private float _degreeTurn = 180;
     private bool _isLookingForward = true;
+<<<<<<< HEAD
     private int _speedToHash = Animator.StringToHash("Speed");
 
+=======
+>>>>>>> d664ef35d6994fd901c241acf2afadd098183efd
 
     void Start()
     {
@@ -44,13 +50,21 @@ public class Movement : MonoBehaviour
         }
         else
         {
+<<<<<<< HEAD
             _animator.SetFloat(_speedToHash, 0);
+=======
+            _animator.SetFloat("Speed", 0);
+>>>>>>> d664ef35d6994fd901c241acf2afadd098183efd
         }        
     }
 
     private void Move()
     {
         transform.Translate(0, 0, _speed * Time.deltaTime);
+<<<<<<< HEAD
         _animator.SetFloat(_speedToHash, 2);
+=======
+        _animator.SetFloat("Speed", 2);
+>>>>>>> d664ef35d6994fd901c241acf2afadd098183efd
     }
 }

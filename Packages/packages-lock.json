@@ -185,6 +185,7 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
     "com.unity.recorder": {
       "version": "4.0.1",
       "depth": 0,
@@ -194,6 +195,8 @@
       },
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> d664ef35d6994fd901c241acf2afadd098183efd
     "com.unity.render-pipelines.core": {
       "version": "14.0.8",
       "depth": 1,
