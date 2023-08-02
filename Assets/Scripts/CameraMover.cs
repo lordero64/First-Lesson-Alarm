@@ -9,11 +9,11 @@ public class CameraMover : MonoBehaviour
 
     private void Start()
     {
-        _offset=transform.position -_player.position;
+        _offset = transform.position - _player.position;
     }
 
     private void LateUpdate()
     {
-        transform.position =_player.position + _offset;
+        transform.position = _player.position + _offset;
     }
 }

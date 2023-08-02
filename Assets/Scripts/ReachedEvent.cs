@@ -10,7 +10,7 @@ public class AlarmEvent : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        if(collision.TryGetComponent<Player>(out Player player))
+        if (collision.TryGetComponent<Player>(out Player player))
         {
             _reached?.Invoke();
         }
