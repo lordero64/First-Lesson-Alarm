@@ -14,12 +14,12 @@ public class Movement : MonoBehaviour
     private bool _isLookingForward = true;
     private readonly int _speedHash = Animator.StringToHash("Speed");
 
-    void Start()
+    private void Start()
     {
         _animator = GetComponent<Animator>();
     }
 
-    void Update()
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.D))
         {
